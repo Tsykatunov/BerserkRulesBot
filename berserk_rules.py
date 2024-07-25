@@ -401,7 +401,7 @@ async def inlinequery(update, context):
 
 def main():
     application = Application.builder().token(
-        "7240157972:AAHMY_FnBHE7UZkvkjl3oSfgjM5OtdH6fEM").build()
+        "ЗДЕСЬ_ТОКЕН").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(InlineQueryHandler(inlinequery))
