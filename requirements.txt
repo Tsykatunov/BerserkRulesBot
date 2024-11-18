@@ -1,2 +1,8 @@
-telegram
-pip~=24.0
+pip>=24.0
+contrib>=0.3.0
+cloudbiolinux>=0.1
+cryptography>=42.0.8
+pillow>=10.4.0
+asyncio>=3.4.3
+telegram>=0.0.1
+python-telegram-bot>=21.5
