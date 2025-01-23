@@ -105,7 +105,7 @@ def sanitize_callback_data(data):
     return data[:64]
 
 def main():
-    application = Application.builder().token("7240157972:AAHMY_FnBHE7UZkvkjl3oSfgjM5OtdH6fEM").build()
+    application = Application.builder().token("token").build()
     
     logging.info("Бот запущен и ожидает обновлений...")
     
